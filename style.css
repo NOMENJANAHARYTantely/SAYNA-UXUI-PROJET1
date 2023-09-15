@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body {
+  background-color: wheat;
+}
+
+section#s1 {
+  margin-left: 3rem;
+}
+
+section#s2 {
+  margin: 3rem;
+}
+
+section#s3 {
+  margin-bottom: 10rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+
+a {
+  color: #5f3636;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+div#portfolio p {
+  color: black;
+  font-family: math
+}
+
+div#portfolio h5 {
+  font-family: monospace;
+  font-size: 25px;
+  color: aqua
+}
+
+div#view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9rem;
+}
+
+div#portfolio {
+  margin-top: 2rem;
+  margin-right: 8rem;
+}
+
+div#ME {
+  width: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+div#profile-descript {
+  width: 50%;
+}
+
+div#ME h1 {
+  font-size: 45px;
+  color: brown;
+}
+
+div#ME p {
+  font-size: 35px;
+}
+
+div#descript {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 5rem;
+}
+
+div#descript h1 {
+  font-size: xx-large;
+}
+
+div#descript p {
+  font-size: 18px;
+  font-family: cursive;
+}
+
+
+div#ME p#text {
+  color: rgb(33, 24, 24);
+  font-size: 18px;
+  font-family: cursive;
+  margin-left: 6rem;
+}
+
+div#profile {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+div#profile a {
+  position: absolute;
+  border: 2px solid wheat;
+  background-color: #AD1457;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-left: 5rem;
+  color: wheat;
+  font-size: 18px;
+}
+
+div#img-profile {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+div#img-profile img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+div#skills {
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+}
+
+div#educ {
+  width: 50%;
+}
+
+h3 {
+  font-size: 35px;
+  color: chocolate;
+  margin: 2rem;
+}
+
+ul#éc {
+  margin-left: 4rem;
+}
+
+li {
+  font-size: 20px;
+  font-family: monospace
+}
+
+h4 {
+  font-size: 22px;
+  color: darkcyan
+}
+
+ul p {
+  font-size: 18px;
+  font-family: cursive
+}
+
+div#comp {
+  width: 50%;
+}
+
+div#comp img {
+  height: 90px;
+  width: 90px;
+}
+
+div#logo {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+section#s3 h3 {
+  margin-left: 4.5rem;
+}
+
+div.content img {
+  height: 150px;
+  width: 20%;
+  border-radius: 1rem;
+  border: 3px solid hsla(15, 100%, 11%, 0.97);
+
+}
+
+div.content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+div.content h5 {
+  margin-top: 2rem;
+}
+
+div#project {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-left: 8rem
+}
+
+div#G1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+div#G2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+footer#contact {
+  background-color: chocolate;
+  padding: 5rem 6rem 2rem 6rem;
+}
+
+footer p {
+  color: aliceblue;
+  font-size: 16px;
+  font-family: cursive
+}
+
+footer div#findme img {
+  height: 200px;
+  margin: 15px;
+  border-radius: 50%;
+  width: 200px;
+}
+
+footer div#social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30rem;
+}
+
+footer div#findme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+}
+
+footer div#icons img {
+  height: 35px;
+}
+
+footer div#icons div.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer div#icons p {
+  color: bisque;
+}
+
+footer p#licence {
+  margin: 5rem 0 0 0;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+footer p#licence span {
+  color: aqua;
+}
